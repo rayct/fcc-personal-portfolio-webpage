@@ -89,11 +89,11 @@ h2 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 9rem;
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 6rem;
   /* font-weight: 300 !important; */
 }
 
@@ -121,7 +121,7 @@ img {
   left: 0;
   width: 100%;
   background: rgb(69, 69, 69);
-  box-shadow: 0 2px 0 rgba(16, 124, 255, 0.735);
+  box-shadow: 0 4px 0 rgba(111, 111, 111, 0.982);
   z-index: 10;
 }
 
@@ -213,7 +213,7 @@ img {
 }
 
 .project {
-  background: var(--main-black);
+  background: rgb(69, 69, 69);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
@@ -273,9 +273,9 @@ img {
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
-  background: var(--main-gray);
+  height: 30vh;
+  padding: 0 3rem;
+  background: rgb(57, 57, 57);
 }
 
 .contact-section-header>h2 {
@@ -312,14 +312,14 @@ img {
 }
 
 /* Footer */
-
 footer {
   font-weight: 300;
+  font-size: 2.2rem;
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: var(--main-gray);
-  border-top: 4px solid var(--main-red);
+  background: rgb(69, 69, 69);
+  border-top: 4px solid rgba(111, 111, 111, 0.982);
 }
 
 footer>p {
