@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log(logoPaths[i].getTotalLength());
       logoPaths[i].style.strokeDasharray = logoPaths[i].getTotalLength();
       logoPaths[i].style.strokeDashoffset = logoPaths[i].getTotalLength();
-      logoPaths[i].style.animation = `line-anim 2s ease forwards ${delay}s`;
+      logoPaths[i].style.animation = `line-anim 1s ease forwards ${delay}s`;
       delay += delayIncrement;
       console.log(delay)
     }
-    logo.style.animation = `fill 0.5s ease forwards ${delay}s`;
+    logo.style.animation = `fill 0.6s ease forwards ${delay}s`;
   }
-  animateSgv('logo', 0, 0.5)
+  animateSgv('logo', 0, 0.6)
 }, false);
