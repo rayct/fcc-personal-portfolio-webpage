@@ -164,9 +164,7 @@ img {
 }
 
 .welcome-section>p {
-  position: absolute;
-  top: 52%;
-  bottom: 50%;
+  text-align: left;
   font-size: 2.5rem;
   font-weight: 300;
   font-style: italic;
